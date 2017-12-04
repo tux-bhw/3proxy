@@ -10,7 +10,7 @@ This setup has been created to quickly install a proxy on small lowendbox VPS mo
 
 Download, make executable and run with these lines :
 
-    wget --no-check-certificate https://raw.github.com/barankilic/3proxy/master/3proxyinstaller.sh
+    wget --no-check-certificate https://raw.githubusercontent.com/tux-bhw/3proxy/master/3proxyinstaller.sh
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
 
@@ -38,10 +38,12 @@ For Uninstall Download, make executable and run with these lines :
 	chmod +x 3proxyuninst.sh
 	./3proxyuninst.sh
 
-**Script tested on 20.05.2016 on the following fresh VPS install distros :**
+**Script tested on 12.04.17 on the following fresh VPS install distros :**
 
 - Ubuntu 14.04 64bit (Vmware)
 - Scaleway C1 Arm Server (Debian Jessie)
+- Linode
+- Digital ocean
 
 
 **Script will run on :**
@@ -51,6 +53,7 @@ For Uninstall Download, make executable and run with these lines :
 - Ubuntu 12.10 
 - Ubuntu 12.04 
 - Ubuntu 14.04
+- ubuntu 16.04
 
 <<<<<<< HEAD
 =======
